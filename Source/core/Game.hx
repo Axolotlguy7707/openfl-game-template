@@ -10,8 +10,8 @@ class Game extends Sprite {
 
     public static var instance:Game;
 
-    public static inline var GAME_WIDTH:Int = 720;
-    public static inline var GAME_HEIGHT:Int = 480;
+    public static inline var GAME_WIDTH:Int = 1280;
+    public static inline var GAME_HEIGHT:Int = 720;
 
     var lastTime:Float;
     public var currentScene:Scene;
