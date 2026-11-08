@@ -23,7 +23,6 @@ class Game extends Sprite {
 
         currentScene = startingScene;
         this.addChild(currentScene);
-        currentScene.create();
     }
 
     function update(e:Event) {
